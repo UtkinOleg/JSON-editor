@@ -80,24 +80,4 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, '..', 'build', 'index.html'));
 });
 
-// API module example ++++++++++++++++++++++++++++++++++++++++++++++++++
-/* initConnection('http://docker.lan.smclinic.ru', 'a97c4874-05c7-1be1-61d1-6f103a0620cb');
-
-publish('/buh1/foo').then(r => {
-  console.log(r)
-});
-
-consume('/buh2').then(r => {
-  console.log(r)
-});
-
-ack({ id: '123' }).then(r => {
-  console.log(r)
-})
-
-nack({ id: '123' }, false).then(r => {
-  console.log(r)
-}) */
-// API module example ------------------------------------------------
-
 module.exports = app;
