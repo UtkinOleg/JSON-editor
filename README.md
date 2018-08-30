@@ -1,7 +1,9 @@
 # JSON structures editor
 
-This application use React as frontend.
-NodeJS with ExpressJS and PassportJS as backend.
-MongoDB and Redis as data storages.
+Simple application for creating ans editing any JSON structures for custom event message bus. 
+
+ReactJS in Frontend.
+NodeJS with ExpressJS and PassportJS in Backend.
+Database - MongoDB and Redis.
 
 
