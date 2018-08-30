@@ -1,4 +1,4 @@
-# JSON systems and objects editor
+# JSON structures editor
 
 This application use React as frontend.
 NodeJS with ExpressJS and PassportJS as backend.
